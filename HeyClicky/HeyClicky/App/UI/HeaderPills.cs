@@ -67,23 +67,15 @@ public static class HeaderPills
 
 	public static bool ShowsUpgrade(AppServices s)
 	{
-		if (!ShowsUpdate(s))
-		{
-			BillingUi? billing = s.Billing;
-			if (billing != null && billing.State.ShouldOfferManualUpgrade)
-			{
-				return !HidesPromotionalButtons();
-			}
-		}
 		return false;
 	}
 
 	public static GelButton UpdateButton(AppServices s, string surface, bool compact, bool iconOnly, Action? before = null)
 	{
 		bool isReady = IsUpdateReady(s);
-		GelButton gelButton = new GelButton(iconOnly ? "" : "Update app", GelAppearance.Orange, compact ? GelButton.Sizing.Compact : GelButton.Sizing.Normal, 100.0, "\ue896");
+		GelButton gelButton = new GelButton(iconOnly ? "" : "Mettre à jour", GelAppearance.Orange, compact ? GelButton.Sizing.Compact : GelButton.Sizing.Normal, 100.0, "\ue896");
 		gelButton.Tip(isReady ? "Install the downloaded update and relaunch HeyClicky" : "Download and install the new version of HeyClicky");
-		AutomationProperties.SetName(gelButton, "Update app");
+		AutomationProperties.SetName(gelButton, "Mettre à jour");
 		gelButton.Click += () =>
 		{
 			before?.Invoke();
