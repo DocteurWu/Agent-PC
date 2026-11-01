@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HeyClicky.Agents</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net9.0-windows10.0.22621.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="HeyClicky.Contracts">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\HeyClicky.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>..\..\..\..\..\AppData\Local\HeyClickyApp\current\System.Net.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
